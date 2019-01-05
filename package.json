@@ -4,7 +4,9 @@
   "description": "this is a project with express and mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/js/server",
+    "start": "node src/js/server"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,7 @@
     "express",
     "mongoose"
   ],
-  "author": "Brandon Fu",
+  "author": "Brandon Fu <wfitmt@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hardant/express-mongoose/issues"
